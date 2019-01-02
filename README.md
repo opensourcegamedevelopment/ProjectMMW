@@ -1,4 +1,4 @@
-# ProjectMMW
+# Project MMW
 Free Source Game Development for Project MMW
 
 Project MMW is a free source game development project inspired by multiplayer pvp game such as mobile suit gundam online, SD Gundam Capsule Fighter (SDGO).
