@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
+    public float speed = 0.5f;
+
     CharacterController characterController;
+    public Transform cameraPivot;
 
     // Start is called before the first frame update
     void Start()
@@ -17,26 +20,32 @@ public class Movement : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.W))
         {
-            characterController.Move(Vector3.forward);
-            //transform.Translate(Vector3.forward);
+            float tempRotationY = cameraPivot.transform.eulerAngles.y;
+
+            //reset camera roation
+            cameraPivot.GetComponent<CameraPivot>().rotationX = 0;
+
+            //rotate object along with camera
+            transform.localRotation = Quaternion.Euler(0, tempRotationY, 0);
+            
+            characterController.Move(transform.forward * speed);
         }
 
         if (Input.GetKey(KeyCode.S))
         {
-            characterController.Move(Vector3.back);
-            //transform.Translate(Vector3.back);
+            characterController.Move(-transform.forward * speed / 2);
         }
 
         if (Input.GetKey(KeyCode.A))
         {
-            characterController.Move(Vector3.left);
-            //transform.Translate(Vector3.left);
+            characterController.Move(-transform.right * speed / 2);
         }
 
         if (Input.GetKey(KeyCode.D))
         {
-            characterController.Move(Vector3.right);
-            //transform.Translate(Vector3.right);
+            characterController.Move(transform.right * speed / 2);
         }
+
+
     }
 }
