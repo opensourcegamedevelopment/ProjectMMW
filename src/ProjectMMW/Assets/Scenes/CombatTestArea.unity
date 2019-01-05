@@ -345,6 +345,9 @@ MonoBehaviour:
   maximumX: 360
   minimumY: -20
   maximumY: 20
+  rotationX: 0
+  rotationY: 0
+  originalRotation: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &128422344
 GameObject:
   m_ObjectHideFlags: 0
@@ -2492,6 +2495,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 650ea52ca50513544967a81448279a5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 10
+  gravity: 9.8
+  jumpSpeed: 8
   cameraPivot: {fileID: 87942862}
 --- !u!143 &1696616324
 CharacterController:
