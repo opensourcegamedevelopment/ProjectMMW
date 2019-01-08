@@ -3,13 +3,49 @@ Free Source Game Development for Project MMW
 
 Project MMW is a free source game development project inspired by multiplayer pvp game such as mobile suit gundam online, SD Gundam Capsule Fighter (SDGO).
 
-The game will be an online multiplayer pvp Mecha featuring 1v1 (duel) 2v2, 3v3, 5v5, 50v50 as well as a massive MMO eternal battleground experience. 
+The game will be an online multiplayer pvp Mecha featuring 1v1 (duel) 2v2, 3v3, 5v5, 50v50 as well as a massive MMO eternal battleground experience (Think of GW2 mix with Dynasty Warriors). 
 
 Features:
 – Realtime PVP battle. 
 – Custom Mecha with skill and equipment customisation/upgrades. 
 
 Note: Because this is a free source game development project which everyone can contribute, features are subject to change during the development cycle.
+
+## Mecha Customisation
+
+Mecha can be customised for your specific playstyles.
+
+All players start with 3 initial frames and a default set of components. Gain blueprints and parts to build and customise weapons, armors and components.
+
+### Standard Frame
+
+Mobility (Speed): ***
+
+Integrity (Hp): ***
+
+Loads (Weight Limit): ***
+
+Standard frame form the basis of most units. It is highly balance and allow the flexibility of almost any customisations.
+
+### Light Frame
+
+Mobility (Speed): *****
+
+Integrity (Hp): **
+
+Loads (Weight Limit): **
+
+Light frame or often called assult frame offer most mobility with a trade of lower integrity and load limit. This frame are most suitable for vanguard operations.
+
+### Heavy Frame
+
+Mobility (Speed): *
+
+Integrity (Hp): ****
+
+Loads (Weight Limit): ****
+
+Heavy frame allow unit to carry more heavy weapon with a trade of lower mobility. It is most suitable for heavy artillery kind of playstyle.
 
 ## License
 Please See license terms
