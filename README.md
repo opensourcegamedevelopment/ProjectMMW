@@ -89,4 +89,4 @@ FOR PROGRAMMERS:
 For Artists / Designers / Audio Engineers:
 1. Check for existing appropriate files/assets in the Public folder for existing assets before contributing.
 2. Upload appropriate files. preferably zipped. I will check and reorganised to the public folder if the upload files are suitable for the game.
-3. Contact Project Admin if there is any issues. 
+3. Contact Project Admin if there are any issues. 
