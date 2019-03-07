@@ -59,10 +59,19 @@ Note: Please read and accept the license agreement before making any contributio
 
 Unity Game Engine: Version 2018.3.0f2
 
+Discord Channel:
+https://discord.gg/A2tnTSH
+
 Source Code
 GitHub: https://github.com/jinzwu/ProjectMMW.git
 
 Game Assets
+Latest Asset files:
+https://drive.google.com/open?id=1gAjy4ZpqCn7Jpi9EWdJvHSFCvP7fWHYN
+
+Google Drive:
+https://drive.google.com/open?id=1IAeXF7u4frjrQvWNFAFoVIET_4PowFNP
+
 Dropbox: 
 Public Read-Only
 https://www.dropbox.com/sh/ayaopiheo87rup5/AABZPFfII4Lv2pC9fF1Jwk7ga?dl=0
